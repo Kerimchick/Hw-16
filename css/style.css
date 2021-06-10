@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-4{
+    width: 33.3333%;
+}
+.header{
+    padding: 31px 0 12px;
+    position: relative;
+    width: 100%;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+}
+.header-menu{
+    display: flex;
+    justify-content: center;
+}
+.header-link{
+    font-size: 16px;
+    line-height: 19px;
+    color: #170C04;
+    margin-right: 55px;
+}
+.header-icon svg{
+    margin-right: 40px;
+}
+.hero{
+    padding:12px 0 132px;
+    position: relative;
+}
+.hero-title{
+    font-size: 100px;
+    line-height: 120px;
+    color: #170C04;
+    margin:148px 0 119px;
+}
+.btn-link{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    opacity: 0.15;
+    border: 1px solid #E27B3A;
+    border-radius: 24px;
+    padding: 12px 29px;
+    margin-right: 20px;
+}
+.btn-link:hover{
+    opacity: 1;
+    background: #E27B3A;
+    border: none;
+    color: white;
+}
+.hero-img{
+    width: 916px;
+    height: 611px;
+    margin-left: -80px;
+    position: absolute;
+}
+.quality {
+    padding: 96px 0;
+}
+.quality-box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px 25px 18px;
+    text-align: center;
+    position: relative;
+    transition: 0.6s;
+}
+.quality-box:hover {
+    box-shadow: -1px 0 20px 0 #ffbb90ab;
+    border-color: transparent;
+}
+.quality-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -26px;
+}
+.quality-shadow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5px;
+}
+.quality-heading {
+    font-size: 25px;
+    font-weight: 400;
+}
+.quality-content {
+    margin: 11px 0 24px;
+}
+
+
